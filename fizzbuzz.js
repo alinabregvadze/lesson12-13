@@ -1,4 +1,4 @@
-
+// 3, 5 და 3 და 5-ის(ერთდროულად) ჯერადი რიცხვები
 for (let num = 1; num <=100; num++) {
     if (num%15==0){
         console.log('FizzBuzz')
