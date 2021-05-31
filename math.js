@@ -17,3 +17,16 @@ console.log(Math.pow(3,3)); // 27 ახარისხება 3^3
 console.log(Math.random()); // შემთხვევითი რიცხვი [0-1] შუალედიდან
 
 console.log(Math.sqrt(16)); // 4 ფესვი
+
+var PI = 3.1415926;
+console.log( Math.round(PI * 100) / 100 ); // 3.1415926 -> 314.15926 -> 314 -> 3.14
+// 10ის იმ ხარისხზე გავამრავლოთ და გავყოთ, რომლამდეც გვინდა დამრგვალება
+
+var PI = 3.1415926;
+console.log(PI.toFixed(2)); // 3.14  (i) romlamdec gvinda damrgvaleba
+console.log(typeof PI.toFixed(2)); // string
+
+var PI = 3.1415926;
+console.log(PI.toFixed(2)); // 3.14
+console.log(typeof +(PI.toFixed(2))); // number
+
